@@ -8,14 +8,11 @@
     "preact": "https://esm.sh/preact@10.17.1",
     "preact/hooks": "https://esm.sh/preact@10.17.1/hooks",
     "preact/jsx-runtime": "https://esm.sh/preact@10.17.1/jsx-runtime",
-    "stew/config": "https://deno.land/x/stew@0.1.0/stew-library/config/mod.ts",
-    "stew/config/helpers": "https://deno.land/x/stew@0.1.0/stew-library/config/helpers/mod.ts",
-    "stew/components": "https://deno.land/x/stew@0.1.0/stew-library/components/mod.ts",
-    "stew/utilities": "https://deno.land/x/stew@0.1.0/stew-library/utilities/mod.ts"
+    "stew/": "https://deno.land/x/stew@0.3.0/stew-library/"
   },
   "tasks": {
-    "buildStew": "rm -rf ./build_bakedgoods && deno run -A https://raw.githubusercontent.com/stews-io/toolkit/0.1.0/stew-command/main.ts build ./source/stew.config.ts",
-    "serveStew": "deno run -A https://raw.githubusercontent.com/stews-io/toolkit/0.1.0/development-scripts/serveStewBuild.ts ./build_bakedgoods",
+    "buildStew": "rm -rf ./build_bakedgoods && deno run -A https://raw.githubusercontent.com/stews-io/toolkit/0.3.0/stew-command/main.ts build ./source/stew.config.ts",
+    "serveStew": "deno run -A https://raw.githubusercontent.com/stews-io/toolkit/0.3.0/development-scripts/serveStewBuild.ts ./build_bakedgoods",
     "buildAndServeStew": "deno task buildStew && deno task serveStew"
   },
   "fmt": {
