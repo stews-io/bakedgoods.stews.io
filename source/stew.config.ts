@@ -1,4 +1,4 @@
-import { SourceStewConfig } from "stew/config";
+import { SourceStewConfig } from "stew/config/mod.ts";
 import { musicDataset } from "./music.dataset.ts";
 
 export default getStewConfig();
