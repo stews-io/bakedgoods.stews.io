@@ -1,6 +1,6 @@
 {
   "buildCommand": "deno task buildStew",
-  "outputDirectory": "build_bakedgoods",
+  "outputDirectory": "build",
   "rewrites": [
     {
       "source": "/",

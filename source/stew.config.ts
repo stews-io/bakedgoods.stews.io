@@ -9,7 +9,7 @@ function getStewConfig(): SourceStewConfig {
       stewName: "bakedgoods",
       stewTagline: "sandy eggo",
       stewMessage: "choice selections from modern electronic music",
-      stewExternalLinks: [],
+      stewLinks: [],
     },
     stewSegments: [
       {
